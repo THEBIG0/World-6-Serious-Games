@@ -912,6 +912,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ChangeScene.cs" t="Include" />
+          <e p="DialogueSwitch.cs" t="Include" />
           <e p="PointAndClick.cs" t="Include" />
         </e>
         <e p="Spawner.cs" t="Include" />
