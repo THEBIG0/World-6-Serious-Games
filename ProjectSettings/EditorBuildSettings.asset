@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CookingGame.unity
     guid: 0e8a877441d6b324c962f9fc5cdf1d05
+  - enabled: 1
+    path: Assets/Scenes/Lounge-Room.unity
+    guid: ccea81d2971ced14f9188f67055c4b3f
   m_configObjects: {}
