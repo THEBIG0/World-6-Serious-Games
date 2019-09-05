@@ -6,6 +6,7 @@ using Fungus;
 public class DialogueSwitch : MonoBehaviour
 {
     public bool hasSaidBefore;
+    public bool hasSaidBefore2;
     //public bool isCharacterActive;
     public Flowchart flowchart;
    string sceneName;
@@ -56,10 +57,12 @@ public class DialogueSwitch : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene(); 
         sceneName = currentScene.name;
         hasSaidBefore = flowchart.GetBooleanVariable("IfSaidBefore");
+        hasSaidBefore2 = flowchart.GetBooleanVariable("IfSaidBefore2");
         //isCharacterActive = flowchart.GetBooleanVariable("IsCharacterActive");
         print(hasSaidBefore);
         if (sceneName == "CookingGame")
         {
+            flowchart.SetBooleanVariable("IfSaidBefore2", true);
             counter = 0;
             characterModel.SetActive(false);
             print("character should be disabled");
@@ -79,6 +82,11 @@ public class DialogueSwitch : MonoBehaviour
                 characterModel.SetActive(true);
                 counter = 0;
             }
+        }
+
+        if (sceneName == "Lounge-Room")
+        {
+            flowchart.SetBooleanVariable("IfSaidBefore2", false);
         }
         
         //bug: character model still appeared in the cooking game so i need to disable it then reenable it 

@@ -7,8 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Drag.cs" t="Include" />
-        <e p="Drop.cs" t="Include" />
         <e p="Fungus" t="Include">
           <e p="Docs" t="Include">
             <e p="CHANGELOG.txt" t="Include" />
@@ -913,9 +911,12 @@
         <e p="Scripts" t="Include">
           <e p="ChangeScene.cs" t="Include" />
           <e p="DialogueSwitch.cs" t="Include" />
+          <e p="Drag.cs" t="Include" />
+          <e p="Drop.cs" t="Include" />
+          <e p="Ingredient.cs" t="Include" />
           <e p="PointAndClick.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
         </e>
-        <e p="Spawner.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
