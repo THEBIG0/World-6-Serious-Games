@@ -14,6 +14,10 @@ public class DialogueSwitch : MonoBehaviour
    public Camera mainCamera;
    public GameObject characterModel;
    public Character character;
+   public GameObject characterModel2;
+      public Character character2;
+      public SayDialog sayDialog;
+      public Stage stage;
    private int counter = 0;
     private void Awake()
     {
@@ -35,6 +39,10 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(mainCamera);
             Destroy(characterModel);
             Destroy(character);
+            Destroy(character2);
+            Destroy(characterModel2);
+            Destroy(sayDialog);
+            Destroy(stage);
         }
         else
         {
@@ -43,6 +51,10 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(mainCamera);
             DontDestroyOnLoad(characterModel);
             DontDestroyOnLoad(character);
+            DontDestroyOnLoad(characterModel2);
+            DontDestroyOnLoad(character2);
+            DontDestroyOnLoad(sayDialog);
+            DontDestroyOnLoad(stage);
         }
         
 

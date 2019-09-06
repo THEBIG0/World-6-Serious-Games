@@ -338,7 +338,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.56204
     y: 191.0459
-    width: 125.609764
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -368,19 +368,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 743.1066, y: -26.609001}
+  scrollPos: {x: 411.5639, y: -73.04051}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.81999993
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 140363607}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 140363598}
@@ -545,7 +544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.1531
     y: 192.02837
-    width: 208.5366
+    width: 197
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1011,7 +1010,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608.8862
     y: 199.44173
-    width: 220.73172
+    width: 208
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1439,12 +1438,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 388.09662
     y: 321.8102
-    width: 265.8537
+    width: 158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 62
-  blockName: Cartoon character clicked 2 (Copy)
+  blockName: character clicked 3
   description: if entered minigame and not lounge-room
   eventHandler: {fileID: 140363596}
   commandList:
