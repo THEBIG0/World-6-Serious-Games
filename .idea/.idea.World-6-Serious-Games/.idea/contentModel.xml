@@ -7,8 +7,12 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Drag.cs" t="Include" />
-        <e p="Drop.cs" t="Include" />
+        <e p="Breakout Tile Set Free" t="Include">
+          <e p="LICENSE.txt" t="Include" />
+          <e p="Sprite Sheet" t="Include">
+            <e p="Breakout_Tile_Free.xml" t="Include" />
+          </e>
+        </e>
         <e p="Fungus" t="Include">
           <e p="Docs" t="Include">
             <e p="CHANGELOG.txt" t="Include" />
@@ -911,11 +915,21 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BlockBreaker" t="Include">
+            <e p="Ball.cs" t="Include" />
+            <e p="Block.cs" t="Include" />
+            <e p="Level.cs" t="Include" />
+            <e p="LoseCollider.cs" t="Include" />
+            <e p="MovePaddle.cs" t="Include" />
+          </e>
           <e p="ChangeScene.cs" t="Include" />
           <e p="DialogueSwitch.cs" t="Include" />
+          <e p="Drag.cs" t="Include" />
+          <e p="Drop.cs" t="Include" />
+          <e p="Ingredient.cs" t="Include" />
           <e p="PointAndClick.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
         </e>
-        <e p="Spawner.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
