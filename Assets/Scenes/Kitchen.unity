@@ -1111,6 +1111,12 @@ MonoBehaviour:
   mainCamera: {fileID: 963194227}
   characterModel: {fileID: 299081712}
   character: {fileID: 390735322}
+  characterModel2: {fileID: 0}
+  character2: {fileID: 0}
+  sayDialog: {fileID: 0}
+  stage: {fileID: 0}
+  canvas: {fileID: 0}
+  arrowButton: {fileID: 0}
 --- !u!114 &140363596
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1775,7 +1781,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6330457bf2444594db1faa134035b877, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 174d7ae105e5a90468f70edbd38ea9a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2072,7 +2078,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 6330457bf2444594db1faa134035b877, type: 3}
+  - {fileID: 21300000, guid: 174d7ae105e5a90468f70edbd38ea9a7, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 978969635}
   description: 
@@ -3228,7 +3234,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1188331620
 MonoBehaviour:
   m_ObjectHideFlags: 0

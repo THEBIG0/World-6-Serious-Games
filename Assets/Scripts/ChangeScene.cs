@@ -39,18 +39,33 @@ public class ChangeScene : MonoBehaviour
 
     public void LoadKitchen()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
         //characterModel.SetActive(true);
         //print(characterModel.activeSelf + " :isCharacterActive");
     }
 
    public void LoadLoungeRoom()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
 
    public void LoadCookingMiniGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
+   
+   public void LoadHouseFront()
+   {
+       SceneManager.LoadScene(1);
+   }
+   
+   public void LoadBlockBreaker()
+   {
+       SceneManager.LoadScene(5);
+   }
+   
+   public void LoadBedRoom()
+   {
+       SceneManager.LoadScene(6);
+   }
 }

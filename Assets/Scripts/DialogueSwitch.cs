@@ -18,6 +18,8 @@ public class DialogueSwitch : MonoBehaviour
       public Character character2;
       public SayDialog sayDialog;
       public Stage stage;
+      public GameObject canvas;
+      public GameObject arrowButton;
    private int counter = 0;
     private void Awake()
     {
@@ -43,6 +45,8 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(characterModel2);
             Destroy(sayDialog);
             Destroy(stage);
+            Destroy(canvas);
+            Destroy(arrowButton);
         }
         else
         {
@@ -55,6 +59,8 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(character2);
             DontDestroyOnLoad(sayDialog);
             DontDestroyOnLoad(stage);
+            DontDestroyOnLoad(canvas);
+            DontDestroyOnLoad(arrowButton);
         }
         
 
@@ -72,13 +78,15 @@ public class DialogueSwitch : MonoBehaviour
         hasSaidBefore2 = flowchart.GetBooleanVariable("IfSaidBefore2");
         //isCharacterActive = flowchart.GetBooleanVariable("IsCharacterActive");
         print(hasSaidBefore);
-        if (sceneName == "CookingGame")
+        if (sceneName == "CookingGame" || sceneName =="BlockBreaker")
         {
             flowchart.SetBooleanVariable("IfSaidBefore2", true);
             counter = 0;
+            canvas.SetActive(false);
             characterModel.SetActive(false);
             print("character should be disabled");
             counter = 1;
+            
         }
         if (sceneName == "CookingGame" || sceneName == "Lounge-Room")
         {
@@ -92,6 +100,7 @@ public class DialogueSwitch : MonoBehaviour
             {
                 //flowchart.SetBooleanVariable("IsCharacterActive", true);
                 characterModel.SetActive(true);
+                canvas.SetActive(true);
                 counter = 0;
             }
         }

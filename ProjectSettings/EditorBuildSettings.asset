@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlockBreaker.unity
     guid: 13694bcb516d574488792b2269e4db62
+  - enabled: 1
+    path: Assets/Scenes/BedRoom.unity
+    guid: 6999ddd2434ca474887dd52e2bd5509d
   m_configObjects: {}
