@@ -20,6 +20,7 @@ public class DialogueSwitch : MonoBehaviour
       public Stage stage;
       public GameObject canvas;
       public GameObject arrowButton;
+      
    private int counter = 0;
     private void Awake()
     {
@@ -117,6 +118,9 @@ public class DialogueSwitch : MonoBehaviour
             print("character should be disabled");
         }
 
+
        
     }
+
+   
 }

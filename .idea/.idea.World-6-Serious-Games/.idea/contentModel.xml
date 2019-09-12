@@ -928,6 +928,7 @@
           <e p="Drop.cs" t="Include" />
           <e p="Ingredient.cs" t="Include" />
           <e p="PointAndClick.cs" t="Include" />
+          <e p="SandwichChecker.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
         </e>
       </e>
