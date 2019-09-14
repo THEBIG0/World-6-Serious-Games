@@ -7,6 +7,8 @@ public class DialogueSwitch : MonoBehaviour
 {
     public bool hasSaidBefore;
     public bool hasSaidBefore2;
+
+    public bool ifBagDestroyed;
     //public bool isCharacterActive;
     public Flowchart flowchart;
    string sceneName;
@@ -20,10 +22,12 @@ public class DialogueSwitch : MonoBehaviour
       public Stage stage;
       public GameObject canvas;
       public GameObject arrowButton;
-      
+      public GameObject ListinerObj;
+      public GameObject RubbishBag;
    private int counter = 0;
     private void Awake()
     {
+        
      /*Scene currentScene = SceneManager.GetActiveScene(); 
      sceneName = currentScene.name;
      print(sceneName);
@@ -48,6 +52,9 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(stage);
             Destroy(canvas);
             Destroy(arrowButton);
+            Destroy(ListinerObj);
+            Destroy(RubbishBag);
+            
         }
         else
         {
@@ -62,6 +69,8 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(stage);
             DontDestroyOnLoad(canvas);
             DontDestroyOnLoad(arrowButton);
+            DontDestroyOnLoad(ListinerObj);
+            DontDestroyOnLoad(RubbishBag);
         }
         
 
@@ -77,6 +86,7 @@ public class DialogueSwitch : MonoBehaviour
         sceneName = currentScene.name;
         hasSaidBefore = flowchart.GetBooleanVariable("IfSaidBefore");
         hasSaidBefore2 = flowchart.GetBooleanVariable("IfSaidBefore2");
+        ifBagDestroyed = flowchart.GetBooleanVariable("IfBagDestroyed");
         //isCharacterActive = flowchart.GetBooleanVariable("IsCharacterActive");
         print(hasSaidBefore);
         if (sceneName == "CookingGame" || sceneName =="BlockBreaker")
@@ -118,6 +128,7 @@ public class DialogueSwitch : MonoBehaviour
             print("character should be disabled");
         }
 
+       
 
        
     }

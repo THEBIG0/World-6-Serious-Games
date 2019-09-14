@@ -923,10 +923,12 @@
             <e p="MovePaddle.cs" t="Include" />
           </e>
           <e p="ChangeScene.cs" t="Include" />
+          <e p="Destroy.cs" t="Include" />
           <e p="DialogueSwitch.cs" t="Include" />
           <e p="Drag.cs" t="Include" />
           <e p="Drop.cs" t="Include" />
           <e p="Ingredient.cs" t="Include" />
+          <e p="Listiner.cs" t="Include" />
           <e p="PointAndClick.cs" t="Include" />
           <e p="SandwichChecker.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
