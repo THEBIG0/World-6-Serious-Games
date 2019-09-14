@@ -314,6 +314,9 @@ GameObject:
   - component: {fileID: 140363626}
   - component: {fileID: 140363627}
   - component: {fileID: 140363580}
+  - component: {fileID: 140363630}
+  - component: {fileID: 140363629}
+  - component: {fileID: 140363628}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -374,7 +377,10 @@ MonoBehaviour:
   - {fileID: 140363625}
   - {fileID: 140363627}
   - {fileID: 140363626}
+  - {fileID: 140363630}
+  - {fileID: 140363629}
   - {fileID: 140363572}
+  - {fileID: 140363628}
   - {fileID: 140363576}
   - {fileID: 140363580}
 --- !u!114 &140363568
@@ -401,8 +407,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 140363617}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 140363598}
@@ -2068,6 +2073,94 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &140363628
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140363565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 1
+  storyText: 'Certain jobs may need to be completed to help the family.
+
+    Especially now since Mum''s injury. The world can be interacted with by tapping
+    and dragging on certain objects.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &140363629
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140363565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 1
+  storyText: Yeah sure.
+  description: 
+  character: {fileID: 1717418264}
+  portrait: {fileID: 21300000, guid: 6ac7cd4e2b7fe194b96393681be88296, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &140363630
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140363565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  indentLevel: 1
+  storyText: 'Could you take out the rubbish bags?
+
+'
+  description: 
+  character: {fileID: 390735322}
+  portrait: {fileID: 21300000, guid: 174d7ae105e5a90468f70edbd38ea9a7, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &299081712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,7 +3484,7 @@ GameObject:
   - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

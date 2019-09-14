@@ -32,4 +32,5 @@ public class MovePaddle : MonoBehaviour
               transform.position = curScreenPoint;
           
       }
+      
 }
