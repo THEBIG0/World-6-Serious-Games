@@ -1,0 +1,979 @@
+fileFormatVersion: 2
+guid: 6708aa2c12003449e9d7c669c11785cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6234330970754847308
+    second: burger_0
+  - first:
+      213: 9215782535512369726
+    second: burger_1
+  - first:
+      213: -7554200434601859089
+    second: burger_2
+  - first:
+      213: 8067490680929222895
+    second: burger_3
+  - first:
+      213: 4574264758050537197
+    second: burger_4
+  - first:
+      213: 8444666896167506347
+    second: burger_5
+  - first:
+      213: 2075701018012970720
+    second: burger_6
+  - first:
+      213: -7468280769742975984
+    second: burger_7
+  - first:
+      213: 8886785992929790055
+    second: burger_8
+  - first:
+      213: -6652791459642815221
+    second: burger_9
+  - first:
+      213: 7387924080191190464
+    second: burger_11
+  - first:
+      213: -8204112690867901432
+    second: burger_12
+  - first:
+      213: 1237690080540169256
+    second: burger_13
+  - first:
+      213: 7560262778935743695
+    second: burger_14
+  - first:
+      213: 7145648266879413307
+    second: burger_15
+  - first:
+      213: 1044908209715324546
+    second: burger_16
+  - first:
+      213: 8642647837481547890
+    second: burger_17
+  - first:
+      213: 2137609779352187729
+    second: burger_18
+  - first:
+      213: 2564488028102103302
+    second: burger_19
+  - first:
+      213: -7159988039872171826
+    second: burger_20
+  - first:
+      213: 7346289701751989280
+    second: burger_21
+  - first:
+      213: 2903465779209877017
+    second: burger_22
+  - first:
+      213: -2650356981896755437
+    second: burger_23
+  - first:
+      213: 9212923188149703081
+    second: burger_24
+  - first:
+      213: 7158523492871139884
+    second: burger_25
+  - first:
+      213: 4805364983419240775
+    second: burger_26
+  - first:
+      213: -3396193800437329095
+    second: burger_27
+  - first:
+      213: 6179753568053345531
+    second: burger_28
+  - first:
+      213: 7583699843198659108
+    second: burger_29
+  - first:
+      213: 5499546992023750575
+    second: burger_30
+  - first:
+      213: 1729003454003837688
+    second: burger_31
+  - first:
+      213: -5242279721749386957
+    second: burger_32
+  - first:
+      213: 2594169101710224533
+    second: burger_33
+  - first:
+      213: -2308914598135984366
+    second: burger_34
+  - first:
+      213: -6566784091000530002
+    second: burger_35
+  - first:
+      213: 4128907578663220346
+    second: burger_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: burger_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3339
+        width: 852
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fca412fa4b244c093979b458cdea59
+      internalID: 6234330970754847308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_1
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3318
+        width: 799
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7df18fa030314f4992e64be62c03a90
+      internalID: 9215782535512369726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_2
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 3301
+        width: 816
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6569a8477de97499ca5dbf09969bc55b
+      internalID: -7554200434601859089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_3
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 3337
+        width: 820
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbbad82241304562a0c089a0e534894
+      internalID: 8067490680929222895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2790
+        width: 922
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24805ebe1aaea4ad2843e88dee3c85d6
+      internalID: 4574264758050537197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 2811
+        width: 873
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef067556141445a8bc1cc44d9a76f53
+      internalID: 8444666896167506347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_6
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 2790
+        width: 904
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4304cd685c30a42ebbf172bb78ad73b8
+      internalID: 2075701018012970720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_7
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 2803
+        width: 834
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2491ef4c10644e5befe22f7c423f0d
+      internalID: -7468280769742975984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2287
+        width: 793
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090942b068db64f4cb3f39f45b734f2c
+      internalID: 8886785992929790055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_9
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 2256
+        width: 923
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d04c7b6614a46a792ce69974f66dc1
+      internalID: -6652791459642815221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_11
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 2204
+        width: 857
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5428b9d30b334931b8cd3ed9189c655
+      internalID: 7387924080191190464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_12
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 2304
+        width: 822
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29217427ce8a45d39b6743ce2f917f3
+      internalID: -8204112690867901432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1769
+        width: 808
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a2625bcef8644ee8343331273b59ed
+      internalID: 1237690080540169256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_14
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1755
+        width: 926
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8802d50b5564c471283e638e122bdb20
+      internalID: 7560262778935743695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_15
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1705
+        width: 993
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9dacdfa298444069b52ca20ccf4c64
+      internalID: 7145648266879413307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_16
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 1748
+        width: 866
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349e886b2a1434ee198754f36cba0a04
+      internalID: 1044908209715324546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1272
+        width: 801
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a303816e061411d859ad04e4c7ed47
+      internalID: 8642647837481547890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_18
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1247
+        width: 822
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad5f2fc7802f43fbb0d18289c7dc035
+      internalID: 2137609779352187729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_19
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1155
+        width: 980
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446567fa880a4450bb119729cf94c217
+      internalID: 2564488028102103302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_20
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1250
+        width: 950
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9935d08752140079e3590590e4b198
+      internalID: -7159988039872171826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 623
+        width: 885
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfcc1b45bef0404daa28d0c0afd468a
+      internalID: 7346289701751989280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_22
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 522
+        width: 873
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4d45a18eb68466289229c9b3a2fa79
+      internalID: 2903465779209877017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_23
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 558
+        width: 829
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c91e1c73f0f44f1b90ee558a82d1589
+      internalID: -2650356981896755437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_24
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 595
+        width: 782
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76162b5c088a7435997c5355128f438b
+      internalID: 9212923188149703081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 30
+        width: 589
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db3cd21a77214b66b4ba64a8aedbd0f
+      internalID: 7158523492871139884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_26
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4522861825d39411a827eac0fb78f4e9
+      internalID: 4805364983419240775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_27
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 30
+        width: 587
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b60cb5f20ce45729bb61c92da433fd
+      internalID: -3396193800437329095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_28
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 0
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615ea26538e7d412fa1d9119b23720e5
+      internalID: 6179753568053345531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_29
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 589
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4862d38947df445aeab3c828a48d9328
+      internalID: 7583699843198659108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_30
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 0
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed23ed77bd483475d95a5a2ed0d8130a
+      internalID: 5499546992023750575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 30
+        width: 588
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f910d779826c342648b276415c97763f
+      internalID: 1729003454003837688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_32
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 0
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430e7f693985641e8a090dbc5dc05c34
+      internalID: -5242279721749386957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_33
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 30
+        width: 588
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a03e5e5bb3b436b900320f6e04b11f
+      internalID: 2594169101710224533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_34
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 0
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c3c4bd718794ff88fd4d731c85a9ef
+      internalID: -2308914598135984366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_35
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 30
+        width: 588
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861497be0117b4bac9edd3a8f6fffc4e
+      internalID: -6566784091000530002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burger_36
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 0
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cbeb18fcf95461eb331d1caf517286
+      internalID: 4128907578663220346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 843c37e67ac8d4c849a1d803f6ddc1c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
