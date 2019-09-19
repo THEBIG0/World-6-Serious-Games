@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -175,12 +175,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: a94fa1317579b3e489dbffa325c884e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bae608b8eac214065b30696ed4bb925b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 24, y: 12}
+  m_Size: {x: 28.140001, y: 18.75542}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -195,7 +195,7 @@ Transform:
   m_GameObject: {fileID: 34791918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.77343, y: 0.77343, z: 0.77343}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1119,6 +1119,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   arrowButton: {fileID: 0}
   ListinerObj: {fileID: 0}
+  RubbishBag: {fileID: 0}
 --- !u!114 &140363596
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1802,8 +1803,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299081712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.84, y: -1.13, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.69, y: -1.38, z: 0}
+  m_LocalScale: {x: 0.7805839, y: 0.7805839, z: 0.7805839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -2347,7 +2348,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 3.8e-44, z: 8.639e-42, w: 1.05e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
