@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ShoppingSpawner : MonoBehaviour {
     public GameObject spawner;
-
+    public GameObject[] drags;
+    public Sprite[] sprites;
 
     private void Start() {
         InvokeRepeating("spawn", 0f, 3.5f);
@@ -13,7 +14,12 @@ public class ShoppingSpawner : MonoBehaviour {
 
     void spawn() {
         int r = (int)Random.Range(0f, 2.99f);
+        int r2 = (int)Random.Range(0f, sprites.Length - 0.01f);
         GameObject s = Instantiate(spawner, transform.position, transform.rotation);
-        s.transform.position = new Vector3(12, 3 + (r * 1.5f), 0);
+        s.transform.position = new Vector3(12, 1 + (r * 1.5f), 0);
+        Debug.Log(drags[r2].gameObject.name);
+        s.GetComponent<Spawner>().drag = drags[r2];
+        s.GetComponent<SpriteRenderer>().sprite = sprites[r2];
+        
     }
 }
