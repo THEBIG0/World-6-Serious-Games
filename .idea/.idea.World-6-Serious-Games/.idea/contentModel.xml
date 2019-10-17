@@ -931,6 +931,8 @@
           <e p="Listiner.cs" t="Include" />
           <e p="PointAndClick.cs" t="Include" />
           <e p="SandwichChecker.cs" t="Include" />
+          <e p="ShoppingScroll.cs" t="Include" />
+          <e p="ShoppingSpawner.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
         </e>
       </e>

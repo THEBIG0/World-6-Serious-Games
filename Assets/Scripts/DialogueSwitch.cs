@@ -18,7 +18,10 @@ public class DialogueSwitch : MonoBehaviour
    public Character character;
    public GameObject characterModel2;
       public Character character2;
+      public GameObject characterModel3;
+            public Character character3;
       public SayDialog sayDialog;
+      public SayDialog sayDialogSlow;
       public Stage stage;
       public GameObject canvas;
       public GameObject arrowButton;
@@ -48,7 +51,10 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(character);
             Destroy(character2);
             Destroy(characterModel2);
+            Destroy(character3);
+            Destroy(characterModel3);
             Destroy(sayDialog);
+            Destroy(sayDialogSlow);
             Destroy(stage);
             Destroy(canvas);
             Destroy(arrowButton);
@@ -65,7 +71,10 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(character);
             DontDestroyOnLoad(characterModel2);
             DontDestroyOnLoad(character2);
+            DontDestroyOnLoad(characterModel3);
+            DontDestroyOnLoad(character3);
             DontDestroyOnLoad(sayDialog);
+            DontDestroyOnLoad(sayDialogSlow);
             DontDestroyOnLoad(stage);
             DontDestroyOnLoad(canvas);
             DontDestroyOnLoad(arrowButton);
