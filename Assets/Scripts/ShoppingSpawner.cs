@@ -17,7 +17,6 @@ public class ShoppingSpawner : MonoBehaviour {
         int r2 = (int)Random.Range(0f, sprites.Length - 0.01f);
         GameObject s = Instantiate(spawner, transform.position, transform.rotation);
         s.transform.position = new Vector3(12, 1 + (r * 1.5f), 0);
-        Debug.Log(drags[r2].gameObject.name);
         s.GetComponent<Spawner>().drag = drags[r2];
         s.GetComponent<SpriteRenderer>().sprite = sprites[r2];
         
