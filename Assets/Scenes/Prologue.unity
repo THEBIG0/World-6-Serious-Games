@@ -418,8 +418,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 652.4714
-    y: 146.57256
-    width: 202.45895
+    y: 144.93321
+    width: 198.27579
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -452,7 +452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 46.486877
+    x: 44.76274
     y: 148.23839
     width: 120
     height: 40
@@ -499,19 +499,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 342.6703, y: 27.230087}
+  scrollPos: {x: 397.4469, y: 36.896545}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 281
-  zoom: 0.61000025
+  zoom: 0.5800003
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 140363567}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 140363598}
@@ -677,9 +676,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 946.5586
-    y: 407.13815
-    width: 194.26224
+    x: 948.2827
+    y: 408.8623
+    width: 189.6551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1138,7 +1137,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1219.4783
     y: 415.6553
-    width: 204.0983
+    width: 199.99992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1586,7 +1585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1218.4999
     y: 306.38794
-    width: 156.55734
+    width: 153.44823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2013,7 +2012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 77
   indentLevel: 1
-  storyText: Barry... Are you holding up okay?
+  storyText: '{$PlayerName}... are you holding up okay?'
   description: 
   character: {fileID: 390735322}
   portrait: {fileID: 21300000, guid: 174d7ae105e5a90468f70edbd38ea9a7, type: 3}
@@ -2345,7 +2344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 220.37543
     y: 148.66272
-    width: 159.83603
+    width: 160.34477
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2897,7 +2896,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 436.5197
     y: 150.46126
-    width: 169.67209
+    width: 167.24133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2951,8 +2950,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 778.7344
-    y: 279.75684
-    width: 151.63931
+    y: 281.481
+    width: 148.27582
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3006,7 +3005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 522.28394
     y: 280.61148
-    width: 230.32779
+    width: 222.41371
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3098,7 +3097,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 909.92346
     y: 148.5507
-    width: 181.14749
+    width: 179.31029
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3286,8 +3285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: Barry! We're going to need some help in the kitchen, please come down.
-    Mum would love for you to spend time with us.
+  storyText: '{$PlayerName}! We''re going to need some help in the kitchen, please
+    come down. Mum would love for you to spend time with us.'
   description: 
   character: {fileID: 390735322}
   portrait: {fileID: 21300000, guid: 174d7ae105e5a90468f70edbd38ea9a7, type: 3}
@@ -3388,7 +3387,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1131.0544
     y: 144.13983
-    width: 174.59012
+    width: 174.13788
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3542,7 +3541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1344.8456
     y: 147.11826
-    width: 194.26224
+    width: 194.82751
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3696,7 +3695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1426.5916
     y: 233.09767
-    width: 169.67209
+    width: 167.24133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4061,7 +4060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 178.64099
     y: 220.3108
-    width: 158.19669
+    width: 158.62064
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4233,7 +4232,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 357.3294
     y: 217.03212
-    width: 156.55734
+    width: 155.17236
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4246,7 +4245,7 @@ MonoBehaviour:
   - {fileID: 140363705}
 --- !u!114 &140363709
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
