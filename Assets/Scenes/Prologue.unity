@@ -471,8 +471,8 @@ MonoBehaviour:
   - {fileID: 140363570}
   - {fileID: 140363698}
   - {fileID: 140363622}
-  - {fileID: 140363571}
   - {fileID: 140363709}
+  - {fileID: 140363571}
   - {fileID: 140363621}
   - {fileID: 140363624}
   - {fileID: 140363623}
@@ -6872,7 +6872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 1
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
