@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Fungus;
 public class DialogueSwitch : MonoBehaviour
@@ -22,12 +23,15 @@ public class DialogueSwitch : MonoBehaviour
             public Character character3;
       public SayDialog sayDialog;
       public SayDialog sayDialogSlow;
+      public SayDialog sayDialogPlayer;
       public Stage stage;
       public GameObject canvas;
       public GameObject arrowButton;
       public GameObject ListinerObj;
       public GameObject RubbishBag;
    private int counter = 0;
+   public GameObject inputName;
+
     private void Awake()
     {
         
@@ -39,7 +43,7 @@ public class DialogueSwitch : MonoBehaviour
      {
          hasSaidBefore = true;
      }*/
-        
+       
         int numGameSessions = FindObjectsOfType<DialogueSwitch>().Length;
 
         if (numGameSessions > 1)
@@ -55,11 +59,13 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(characterModel3);
             Destroy(sayDialog);
             Destroy(sayDialogSlow);
+            Destroy(sayDialogPlayer);
             Destroy(stage);
             Destroy(canvas);
             Destroy(arrowButton);
             Destroy(ListinerObj);
             Destroy(RubbishBag);
+            Destroy(inputName);
             
         }
         else
@@ -80,6 +86,8 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(arrowButton);
             DontDestroyOnLoad(ListinerObj);
             DontDestroyOnLoad(RubbishBag);
+            DontDestroyOnLoad(inputName);
+            DontDestroyOnLoad(sayDialogPlayer);
         }
         
 
@@ -87,6 +95,8 @@ public class DialogueSwitch : MonoBehaviour
        //print(hasSaidBefore);
 
     }
+
+    
 
     void Update()
     {
