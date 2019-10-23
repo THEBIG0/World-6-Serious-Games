@@ -129,7 +129,7 @@ public class DialogueSwitch : MonoBehaviour
             if (counter == 1)
             {
                 //flowchart.SetBooleanVariable("IsCharacterActive", true);
-                characterModel.SetActive(true);
+                //characterModel.SetActive(true);
                 canvas.SetActive(true);
                 counter = 0;
             }
