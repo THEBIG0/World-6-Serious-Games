@@ -408,6 +408,7 @@ GameObject:
   - component: {fileID: 140363719}
   - component: {fileID: 140363720}
   - component: {fileID: 140363721}
+  - component: {fileID: 140363722}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -524,7 +525,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 140363708}
   selectedCommands: []
   variables:
   - {fileID: 140363598}
@@ -573,7 +575,7 @@ MonoBehaviour:
   storyText: "Eugh, I am tired\u2026 It\u2019s still early and I am exhausted. All
     I can think about is getting inside and playing Block Breaker."
   description: 
-  character: {fileID: 1717418264}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1879,7 +1881,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Mummy, Daddy where are you?
   description: 
-  character: {fileID: 1717418264}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1946,7 +1948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -113.351585
+    x: -113.35156
     y: 146.24622
     width: 120
     height: 40
@@ -3582,6 +3584,7 @@ MonoBehaviour:
   - {fileID: 140363718}
   - {fileID: 140363680}
   - {fileID: 140363717}
+  - {fileID: 140363722}
 --- !u!114 &140363680
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4500,7 +4503,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &140363721
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4512,6 +4515,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
+--- !u!114 &140363722
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140363565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ff0f540016ff64ab1556db6fe1e10f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  replacedStage: {fileID: 0}
+  useDefaultSettings: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
 --- !u!1 &153430041
 GameObject:
   m_ObjectHideFlags: 0
