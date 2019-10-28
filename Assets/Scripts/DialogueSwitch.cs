@@ -26,6 +26,7 @@ public class DialogueSwitch : MonoBehaviour
       public SayDialog sayDialogPlayer;
       public Stage stage;
       public GameObject canvas;
+      public GameObject cookingCanvas;
       public GameObject arrowButton;
       public GameObject ListinerObj;
       public GameObject RubbishBag;
@@ -61,6 +62,7 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(sayDialogSlow);
             Destroy(sayDialogPlayer);
             Destroy(stage);
+            Destroy(cookingCanvas);
             Destroy(canvas);
             Destroy(arrowButton);
             Destroy(ListinerObj);
@@ -88,6 +90,7 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(RubbishBag);
             DontDestroyOnLoad(inputName);
             DontDestroyOnLoad(sayDialogPlayer);
+            DontDestroyOnLoad(cookingCanvas);
         }
         
 
@@ -129,7 +132,7 @@ public class DialogueSwitch : MonoBehaviour
             if (counter == 1)
             {
                 //flowchart.SetBooleanVariable("IsCharacterActive", true);
-                characterModel.SetActive(true);
+                //characterModel.SetActive(true);
                 canvas.SetActive(true);
                 counter = 0;
             }
