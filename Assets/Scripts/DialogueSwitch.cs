@@ -27,6 +27,7 @@ public class DialogueSwitch : MonoBehaviour
       public Stage stage;
       public GameObject canvas;
       public GameObject cookingCanvas;
+      public GameObject superMarketCanvas;
       public GameObject arrowButton;
       public GameObject ListinerObj;
       public GameObject RubbishBag;
@@ -63,11 +64,13 @@ public class DialogueSwitch : MonoBehaviour
             Destroy(sayDialogPlayer);
             Destroy(stage);
             Destroy(cookingCanvas);
+            Destroy(superMarketCanvas);
             Destroy(canvas);
             Destroy(arrowButton);
             Destroy(ListinerObj);
             Destroy(RubbishBag);
             Destroy(inputName);
+            
             
         }
         else
@@ -91,6 +94,7 @@ public class DialogueSwitch : MonoBehaviour
             DontDestroyOnLoad(inputName);
             DontDestroyOnLoad(sayDialogPlayer);
             DontDestroyOnLoad(cookingCanvas);
+            DontDestroyOnLoad(superMarketCanvas);
         }
         
 
