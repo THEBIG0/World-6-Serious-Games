@@ -13,7 +13,7 @@ public class SavePlayerName : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         PlayerName = PlayerPrefs.GetString("KeyName");
+         //PlayerName = PlayerPrefs.GetString("KeyName");
         inputText.text = PlayerName;
     }
 
@@ -27,7 +27,7 @@ public class SavePlayerName : MonoBehaviour
     {
         flowchart.SetStringVariable("PlayerName",PlayerName);
         PlayerName = inputText.text;
-        PlayerPrefs.SetString("KeyName",PlayerName);
+        //PlayerPrefs.SetString("KeyName",PlayerName);
         print(PlayerName);
         
         //C.NameText = PlayerName;

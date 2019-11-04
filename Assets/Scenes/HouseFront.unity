@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140363565}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dac20e334108c4ead2c852dc2a7b1a, type: 3}
   m_Name: 
@@ -1116,13 +1116,21 @@ MonoBehaviour:
   character2: {fileID: 0}
   characterModel3: {fileID: 0}
   character3: {fileID: 0}
+  characterModel4: {fileID: 0}
+  character4: {fileID: 0}
+  characterModel5: {fileID: 0}
+  character5: {fileID: 0}
   sayDialog: {fileID: 0}
   sayDialogSlow: {fileID: 0}
+  sayDialogPlayer: {fileID: 0}
   stage: {fileID: 0}
   canvas: {fileID: 0}
+  cookingCanvas: {fileID: 0}
+  superMarketCanvas: {fileID: 0}
   arrowButton: {fileID: 0}
   ListinerObj: {fileID: 0}
   RubbishBag: {fileID: 0}
+  inputName: {fileID: 0}
 --- !u!114 &140363596
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1839,6 +1847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6e36ba9c03a041911dc68d220020e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ds: {fileID: 0}
 --- !u!1 &304922798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,6 +2608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6e36ba9c03a041911dc68d220020e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ds: {fileID: 0}
 --- !u!1 &978969630
 GameObject:
   m_ObjectHideFlags: 0
@@ -4577,6 +4587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c6e36ba9c03a041911dc68d220020e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ds: {fileID: 0}
 --- !u!4 &2136477725
 Transform:
   m_ObjectHideFlags: 0

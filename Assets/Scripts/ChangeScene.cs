@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
+    public DialogueSwitch ds;
     //public GameObject characterModel;
     // Start is called before the first frame update
     void Start()
@@ -39,33 +40,46 @@ public class ChangeScene : MonoBehaviour
 
     public void LoadKitchen()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
         //characterModel.SetActive(true);
         //print(characterModel.activeSelf + " :isCharacterActive");
     }
 
    public void LoadLoungeRoom()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
    public void LoadCookingMiniGame()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
    
    public void LoadHouseFront()
    {
-       SceneManager.LoadScene(1);
+       SceneManager.LoadScene(2);
    }
    
    public void LoadBlockBreaker()
    {
-       SceneManager.LoadScene(5);
+       SceneManager.LoadScene(6);
    }
    
    public void LoadBedRoom()
    {
-       SceneManager.LoadScene(6);
+       SceneManager.LoadScene(7);
+   }
+
+   public void LoadPrologue()
+   {
+       SceneManager.LoadScene(1);
+   }
+
+   public void LoadStartScreen()
+   {
+       //SceneManager.LoadScene(0);
+      
+       ds.ResetGameSession();
+       
    }
 }

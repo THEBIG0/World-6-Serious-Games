@@ -16,7 +16,7 @@ public class Destroy : MonoBehaviour
         if (collision.gameObject.name == "blackRubbishBin")
         {
             L.EventTrue();
-            gameObject.SetActive(false);    
+            gameObject.SetActive(false);   
             //Destroy(GameObject.Find("RubbishBag"));
             
             

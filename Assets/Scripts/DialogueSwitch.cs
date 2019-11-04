@@ -41,9 +41,9 @@ public class DialogueSwitch : MonoBehaviour
     private void Awake()
     {
         
-     /*Scene currentScene = SceneManager.GetActiveScene(); 
-     sceneName = currentScene.name;
-     print(sceneName);
+     //Scene currentScene = SceneManager.GetActiveScene(); 
+     //sceneName = currentScene.name;
+     /*print(sceneName);
      hasSaidBefore = flowchart.GetBooleanVariable("IfSaidBefore");
      if (sceneName == "CookingGame")
      {
@@ -81,6 +81,8 @@ public class DialogueSwitch : MonoBehaviour
             
             
         }
+
+       
         else
         {
             DontDestroyOnLoad(gameObject);
@@ -115,7 +117,42 @@ public class DialogueSwitch : MonoBehaviour
 
     }
 
-    
+    public void ResetGameSession()
+    {
+        sayDialog.SetActive(false);
+        sayDialogPlayer.SetActive(false);
+        sayDialogSlow.SetActive(false);
+        stage.gameObject.SetActive(false);
+        sayDialog.gameObject.SetActive(false);
+        sayDialogPlayer.gameObject.SetActive(false);
+        sayDialogSlow.gameObject.SetActive(false);
+        SceneManager.LoadScene(0);
+            Destroy(gameObject);
+            Destroy(kitchenView);
+            Destroy(mainCamera);
+            Destroy(characterModel);
+            Destroy(character);
+            Destroy(character2);
+            Destroy(characterModel2);
+            Destroy(character3);
+            Destroy(characterModel3);
+            Destroy(character4);
+            Destroy(characterModel4);
+            Destroy(character5);
+            Destroy(characterModel5);
+            Destroy(sayDialog);
+            Destroy(sayDialogSlow);
+            Destroy(sayDialogPlayer);
+            Destroy(stage);
+            Destroy(cookingCanvas);
+            Destroy(superMarketCanvas);
+            Destroy(canvas);
+            Destroy(arrowButton);
+            Destroy(ListinerObj);
+            Destroy(RubbishBag);
+            Destroy(inputName);
+            
+    }
 
     void Update()
     {
@@ -143,6 +180,7 @@ public class DialogueSwitch : MonoBehaviour
         }
         else if (sceneName == "Kitchen")
         {
+            flowchart.SetBooleanVariable("IfBagDestroyed",false);
             flowchart.SetBooleanVariable("IfSaidBefore", false);
             //flowchart.SetBooleanVariable("IsCharacterActive", true);
             if (counter == 1)

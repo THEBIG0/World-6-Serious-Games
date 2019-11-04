@@ -13,4 +13,9 @@ public class Listiner : MonoBehaviour
      flowchart.SetBooleanVariable("IfBagDestroyed",true);
         
     }
+
+    public void EventFalse()
+    {
+        flowchart.SetBooleanVariable("IfBagDestroyed",false);
+    }
 }
