@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShoppingGame.unity
     guid: 26f7baf4a8bfbb243b3ac55237512bf8
+  - enabled: 1
+    path: Assets/Scenes/HarryHouse.unity
+    guid: de94a9d1a6347114d97a0fae8c755527
   m_configObjects: {}
