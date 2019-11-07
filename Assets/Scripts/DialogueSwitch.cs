@@ -117,7 +117,7 @@ public class DialogueSwitch : MonoBehaviour
 
     }
 
-    public void ResetGameSession()
+    public void ResetGameSession(string SceneName)
     {
         sayDialog.SetActive(false);
         sayDialogPlayer.SetActive(false);
@@ -126,7 +126,7 @@ public class DialogueSwitch : MonoBehaviour
         sayDialog.gameObject.SetActive(false);
         sayDialogPlayer.gameObject.SetActive(false);
         sayDialogSlow.gameObject.SetActive(false);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneName);
             Destroy(gameObject);
             Destroy(kitchenView);
             Destroy(mainCamera);

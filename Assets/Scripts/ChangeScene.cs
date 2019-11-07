@@ -38,48 +38,48 @@ public class ChangeScene : MonoBehaviour
         
     }*/
 
-    public void LoadKitchen()
+    public void LoadLevel(string sceneName)
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(sceneName);
         //characterModel.SetActive(true);
         //print(characterModel.activeSelf + " :isCharacterActive");
     }
 
-   public void LoadLoungeRoom()
+   /*public void LoadLoungeRoom(string sceneName)
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(sceneName);
     }
 
-   public void LoadCookingMiniGame()
+   public void LoadCookingMiniGame(string sceneName)
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(sceneName);
     }
    
-   public void LoadHouseFront()
+   public void LoadHouseFront(string sceneName)
    {
-       SceneManager.LoadScene(2);
+      SceneManager.LoadScene(sceneName);
    }
    
-   public void LoadBlockBreaker()
+   public void LoadBlockBreaker(string sceneName)
    {
-       SceneManager.LoadScene(6);
+       SceneManager.LoadScene(sceneName);
    }
    
-   public void LoadBedRoom()
+   public void LoadBedRoom(string sceneName)
    {
-       SceneManager.LoadScene(7);
+      SceneManager.LoadScene(sceneName);
    }
 
-   public void LoadPrologue()
+   public void LoadPrologue(string sceneName)
    {
-       SceneManager.LoadScene(1);
-   }
+      SceneManager.LoadScene(sceneName);
+   }*/
 
-   public void LoadStartScreen()
+   public void LoadStartScreen(string sceneName)
    {
        //SceneManager.LoadScene(0);
       
-       ds.ResetGameSession();
+       ds.ResetGameSession("Start-Screen");
        
    }
 }
